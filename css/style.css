@@ -30,6 +30,7 @@ body {
     position: absolute;
     top: 5px;
     right: 5%;
+    z-index: 999;
 }
 a {
     text-decoration: none;
@@ -42,25 +43,30 @@ a {
     display: inline-block;
 }
 .icon-vk {
-    background-image: url('/img/1.png');
+    background-image: url('https://smajlik.ru/wp-content/uploads/2017/12/2.png');
 }
 .icon-inst {
-    background-image: url('/img/2.png');
+    background-image: url('https://www.pngkit.com/png/full/140-1402893_logo-de-instagram-png-svg-fondo-transparente-instagram.png');
+}
+.icon-teleg {
+    background-image: url('https://moscownavigator.com/wp-content/uploads/2021/05/telegram-app-icon.jpg');
+}
+.icon-email {
+    background-image: url('https://stroymet-shop.ru/upload/medialibrary/55e/55e6fd2792a24736d3aabfaf43ac50f3.png');
 }
 .portfolio {
     position: relative;
     width: 100%;
-    height: 600px;
-    background-image: url('https://sun9-80.userapi.com/impg/LvPQC4Vau9xvw_vv4aX0Euq0QP7bkN6Ol2nQ5w/RFJ92NmvYtw.jpg?size=2560x1440&quality=96&sign=7bbe3741be670c166e323a744f48af74&type=album');
+    height: 700px;
+    background-image: url('https://sun9-56.userapi.com/impg/Q1D8yi0Q7tXIWSnaw2cXtTJFNGVSFr91WWJa8g/JhH9S4COiL8.jpg?size=1366x600&quality=96&sign=4e0d3d20aea32b69128e05ddd98ca5b9&type=album');
     background-position: center center;
     background-size: cover;
-    
 }
 #portfolio-1 {
     background-repeat: repeat-x;
     background-position: center center;
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 .portfolio-text-container-left {
     left: 5%;
@@ -93,6 +99,7 @@ a {
     margin-right: auto;
     overflow: auto;
     background-color: #505050;
+    text-align: center;
 }
 .footer-column {
     position: relative;
@@ -162,6 +169,7 @@ a {
     transition: all 0.3s;
     background-color: rgba(0, 0, 0, 0.753);
     height: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .sites {
     border-radius: 10px;
@@ -170,4 +178,12 @@ a {
 .site-text:hover {
     opacity: 1;
     border-radius: 10px;
+}
+@media (max-width: 1000px) {
+    .sites {
+        display: inline-block;
+    }
+}
+form {
+padding-top: 5%;
 }
