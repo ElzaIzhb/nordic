@@ -220,6 +220,8 @@ form {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        z-index: 999;
+        color: #F19CBB;
     }
 }
 @media (max-width: 1105px) {
@@ -234,6 +236,22 @@ form {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    #portfolio-1 {
+        height: 500px;
+    }
+}
+@media (max-width: 600px) {
+    #portfolio-1 {
+        height: 600px;
+    }
+}
+@media (max-width: 400px) {
+    #portfolio-1 {
+        height: 400px;
+    }
+    .portfolio-text-body {
+        margin-bottom: 0;
     }
 }
 .size-car {
