@@ -237,9 +237,9 @@ form {
     }
 }
 .size-car {
-    width: 500px;
-    height: 500px;
-    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    border-radius: 5%;
 }
 .car-car {
     justify-content: center;
@@ -247,13 +247,15 @@ form {
     background-position: center center;
     background-image: url('https://sun9-28.userapi.com/impg/YWypWTGp5ZIFLBFy2lUw0CTB6L1XvjgB4_DfbQ/Mf-NUxrErUI.jpg?size=960x465&quality=96&sign=4c436ab92ae7a3684d2a6df70704037f&type=album');
     background-size: cover;
-    height: 500px;
+    height: 700px;
 }
 .text-cat {
     font-size: large;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
+    padding:10px;
 }
 .topbutton {
     width:100px;
