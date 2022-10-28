@@ -1,5 +1,6 @@
 .flex-box {
     display: flex;
+    flex-wrap: wrap;
 }
 .flex-wrap {
     flex-wrap: wrap;
@@ -41,9 +42,11 @@ a {
     height: 44px;
     margin-right: 8px;
     display: inline-block;
+    background-size: cover;
+    border-radius: 50px;
 }
 .icon-vk {
-    background-image: url('https://smajlik.ru/wp-content/uploads/2017/12/2.png');
+    background-image: url('https://разработка-сайтов42.рф/wp-content/uploads/2020/06/0032379618.big_.png');
 }
 .icon-inst {
     background-image: url('https://www.pngkit.com/png/full/140-1402893_logo-de-instagram-png-svg-fondo-transparente-instagram.png');
@@ -94,6 +97,9 @@ a {
     margin-bottom: 30px;
 }
 #footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -115,6 +121,7 @@ a {
     color: #ffffff;
     font-size: 30px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .avatar {
     position: relative;
@@ -123,7 +130,10 @@ a {
     margin-right: 20px;
     margin-bottom: 20px;
     float: left;
-    background-image: url('');
+    background-image: url('https://sun9-76.userapi.com/impg/gUP971bjHXlgH-0CZmzaPM0EG76zRTITRJudFA/Xp1j_XMHPnM.jpg?size=1619x1486&quality=96&sign=5811d2b57d7f5ad5f5d6749c4edb210d&type=album');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
 }
 .text {
     position: relative;
@@ -180,10 +190,38 @@ a {
     border-radius: 10px;
 }
 @media (max-width: 1000px) {
-    .sites {
-        display: inline-block;
+    .size-site {
+        width: 100%;
+    }
+    .bg-site {
+        flex-direction: column;
     }
 }
 form {
-padding-top: 5%;
+    padding-top: 3%;
+}
+@media (max-width: 700px) {
+    .foot {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.size-car {
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+}
+.car-car {
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-image: url('https://phonoteka.org/uploads/posts/2021-04/1618337768_4-phonoteka_org-p-neitralnii-fon-dlya-rabochego-stola-4.jpg');
+    background-size: cover;
+}
+.text-cat {
+    font-size: large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
 }
