@@ -147,12 +147,27 @@ a {
     background-size: cover;
     background-position: center center;
     width: 33%;
-    height: auto;
+    height: 700px;
 }
 .car-size {
     width: 50%;
     margin: 0 auto;
 }
 .site-text {
+    color: #ffffff;
     text-align: center;
+    margin: auto;
+    padding-top: 50%;
+    opacity: 0;
+    transition: all 0.3s;
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 700px;
+}
+.sites {
+    border-radius: 10px;
+    margin-left: auto;
+}
+.site-text:hover {
+    opacity: 1;
+    border-radius: 10px;
 }
