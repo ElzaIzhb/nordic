@@ -211,10 +211,20 @@ form {
         justify-content: center;
         align-items: center;
     }
+    .size-car{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-cat {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .size-car {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border-radius: 20px;
 }
 .car-car {
@@ -223,7 +233,7 @@ form {
     background-position: center center;
     background-image: url('https://sun9-28.userapi.com/impg/YWypWTGp5ZIFLBFy2lUw0CTB6L1XvjgB4_DfbQ/Mf-NUxrErUI.jpg?size=960x465&quality=96&sign=4c436ab92ae7a3684d2a6df70704037f&type=album');
     background-size: cover;
-    height: 600px;
+    height: 500px;
 }
 .text-cat {
     font-size: large;
