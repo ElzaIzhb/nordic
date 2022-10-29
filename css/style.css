@@ -254,6 +254,11 @@ form {
         margin-bottom: 0;
     }
 }
+@media (max-width: 2048px) {
+    #portfolio-1 {
+        height: 2048px;
+    }
+}
 .size-car {
     width: 400px;
     height: 400px;
