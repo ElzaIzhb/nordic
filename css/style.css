@@ -1,0 +1,291 @@
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+body {
+    background-color: rgb(102, 202, 188);
+    margin: 0;
+    padding: 0;
+}
+#header-container {
+    position: relative;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #505050;
+}
+#title-robby {
+    top: 12px;
+    float: left;
+}
+.title {
+    position: relative;
+    font-family: miso-bold;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    left: 5%;
+}
+#icons-container-right {
+    position: absolute;
+    top: 5px;
+    right: 5%;
+    z-index: 999;
+}
+a {
+    text-decoration: none;
+}
+.icon {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    margin-right: 8px;
+    display: inline-block;
+    background-size: cover;
+    border-radius: 50px;
+}
+.icon-vk {
+    background-image: url('../img/1.png');
+}
+.icon-inst {
+    background-image: url('../img/2.png');
+}
+.icon-teleg {
+    background-image: url('../img/3.png');
+}
+.icon-email {
+    background-image: url('../img/4.png');
+}
+.portfolio {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url('https://sun9-56.userapi.com/impg/Q1D8yi0Q7tXIWSnaw2cXtTJFNGVSFr91WWJa8g/JhH9S4COiL8.jpg?size=1366x600&quality=96&sign=4e0d3d20aea32b69128e05ddd98ca5b9&type=album');
+    background-position: center center;
+    background-size: cover;
+}
+#portfolio-1 {
+    background-repeat: repeat-x;
+    background-position: center center;
+    width: 100%;
+    height: 700px;
+}
+.portfolio-text-container-left {
+    left: 5%;
+}
+.portfolio-text-container {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.portfolio-text-title {
+    position: relative;
+    font-family: miso-bold;
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 56px;
+    margin-bottom: 18px;
+}
+.portfolio-text-body {
+    position: relative;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+#footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    background-color: #505050;
+    text-align: center;
+    margin: 0;
+}
+.footer-column {
+    position: relative;
+    width: 360px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    float: left;
+}
+.title {
+    position: relative;
+    font-family: miso-bold;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.avatar {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    background-image: url('https://sun9-76.userapi.com/impg/gUP971bjHXlgH-0CZmzaPM0EG76zRTITRJudFA/Xp1j_XMHPnM.jpg?size=1619x1486&quality=96&sign=5811d2b57d7f5ad5f5d6749c4edb210d&type=album');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+}
+.text {
+    position: relative;
+    font-family: Arial;
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+.portfolio-text-button {
+    position: relative;
+    display: inline-block;
+    padding: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bg-site {
+    display: flex;
+    justify-content: space-around;
+}
+.title1 {
+    font-size: 1.5em;
+    border-radius: 20px;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.size-site {
+    background-size: cover;
+    background-position: center center;
+    width: 320px;
+    height: 320px;
+}
+.car-size {
+    width: 50%;
+    margin: 0 auto;
+}
+.site-text {
+    color: #ffffff;
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+    height: 300px;
+    opacity: 0;
+    transition: all 0.3s;
+    background-color: rgba(0, 0, 0, 0.753);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sites {
+    border-radius: 10px;
+    
+}
+.site-text:hover {
+    opacity: 1;
+    border-radius: 10px;
+}
+@media (max-width: 950px) {
+    .bg-site {
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+form {
+    padding-top: 3%;
+}
+@media (max-width: 800px) {
+    .foot {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg-site {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sites {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 1105px) {
+    .foot {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 515px) {
+    .head-h {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #portfolio-1 {
+        height: 500px;
+    }
+}
+@media (max-width: 600px) {
+    #portfolio-1 {
+        height: 600px;
+    }
+}
+@media (max-width: 400px) {
+    #portfolio-1 {
+        height: 400px;
+    }
+    .portfolio-text-body {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 380px) {
+    .head-h {
+        right: 0;
+    }
+    .footer-column {
+        flex-direction: column;
+    }
+    form {
+        text-align: center;
+    }
+}
+.topbutton {
+    width:100px;
+    border:2px solid;
+    background:#7eae8c;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    text-decoration: none;
+}
