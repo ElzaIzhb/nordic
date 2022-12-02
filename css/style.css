@@ -162,6 +162,7 @@ a {
 .bg-site {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .title1 {
     font-size: 1.5em;
@@ -180,6 +181,7 @@ a {
     background-position: center center;
     width: 320px;
     height: 320px;
+    margin: 0 0 10px;
 }
 .car-size {
     width: 50%;
